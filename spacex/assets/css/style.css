@@ -1,0 +1,280 @@
+
+/*----- font family -----*/
+body{
+  margin: 0%;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  font-optical-sizing: auto;
+}
+header.primary{
+  background-image: url("/spacex/assets/img/dragon-in-space.jpg");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+    
+  img{
+    max-width:100%;
+  }
+  
+  
+  .container{
+    max-width: 960px;
+    width:80vw;
+    margin:40px auto;
+  }
+  
+  .img-right{
+    float:right;
+    margin: 10px 0 10px 20px;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:50px;
+  }
+  
+  .img-left{
+    float:left;
+    margin: 10px 20px 10px 0;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:50px;
+  }
+  
+  .img-center{
+    display:block;
+    margin:20px auto;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:50px;
+  }
+  
+  
+  body {
+    font-family: cursive;
+    margin: 0;
+    background-image:url("../image");
+    background-repeat: no-repeat;
+    
+  }
+  
+  header.primary {
+    background-color: #000008a5;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px #212121;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+   
+    padding: 120px;
+    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
+  }
+  
+  header.primary h1 {
+    font-size: 2.4rem;
+    margin: 20px 0 0;
+  }
+  
+  header.primary h1 a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  header.primary h2 {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  
+  header.primary nav {
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  header.primary ul {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  header.primary ul li {
+    list-style-type: none;
+  }
+  
+  header.primary nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(8, 137, 202, 0.545);
+    padding: 7.5px 10px;
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    transition: 0.4s;
+  }
+  
+  header.primary nav a:hover {
+    background-color: rgba(249, 246, 246, 0.8);
+  }
+  
+  #content{
+  line-height:1.5;
+  }
+  
+  #content h2{
+   color: #ebeef0;
+   border-bottom:1px dotted #c0c0c0;
+  }
+  
+  #content h3{
+    border-left: 7.5px solid #f5f6f7;
+    padding:7.5px;
+  }
+  
+  #blog{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:2rem;
+    border-bottom:1px dotted #c0c0c0;
+    padding: 2rem 0;
+    border-top:1px dotted #c0c0c0;
+    flex-wrap:wrap;
+  }
+  
+  #blog h2 {
+    flex:0 0 100%;
+    margin:0;
+    text-align:center;
+  }
+  
+  #blog .post{
+    box-shadow: 0 4px 8px rgba(1, 14, 114, 0.6);
+    padding: 10px;
+    border-radius:4px;
+    font-size:.8rem;
+    transition:.5s;
+    flex:1;
+  }
+  
+  #blog figure{
+    margin:0;
+  }
+  
+  #blog figcaption{
+    text-transform:uppercase;
+    font-size:.6rem;
+    text-align:center;
+    color:#c0c0c0;
+  }
+  
+  #blog header{
+    padding-top:10px;
+    font-size:.6rem;
+    color:#c0c0c0;
+  }
+  
+  #blog header h2{
+    margin:0;
+  }
+  
+  #blog a{
+    color:#7f0e0e;
+  }
+  
+  #blog .post:hover{
+    box-shadow: 0 8px 16px rgba(1, 11, 128, 0.6);
+  }
+  
+  #practice h2{
+    color: #f1f3f6;
+    border-bottom: 1px solid #c0c0c0;
+  }
+  
+  table{  
+    border: 1px solid #c0c0c0;
+    width: 100%;
+    margin:20px 0;
+    border-collapse:collapse;
+  }
+  caption{
+    font-weight:bold;
+    margin:10px;
+  }
+  
+  th{
+    background-color: #0a0d67;
+    color:#ffffff;
+    padding:7.5px;
+  }
+  tr:nth-child(even){
+  background-color: rgba(226, 224, 224, 0.928);
+  }
+  
+  tr:hover{
+    background-color: rgba(0,0,0,0,4);
+  }
+  
+  td{
+    border:1px solid #c0c0c0;
+    padding:5px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  aside[role="complementary"]{
+    background-color: #0f0890b0;
+    color:#ffffff;
+    padding:1.25rem;
+  }
+  
+  aside .container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:60px;
+  }
+  
+  aside .container a{
+      color:#fff;
+  }
+  
+  aside .container a:last-of-type{
+    display:block;
+  
+    text-align:right;
+    margin-top: 1rem;
+  }
+  
+  aside .widget footer{
+    display:none;
+  }
+  
+  #colophon{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color: #844709a5;
+    text-align:center;
+    padding:10px;
+    color:#ca360d;
+    font-size:1.1rem;
+  }
+  
+  
+  
+  
+  
+

@@ -8,7 +8,7 @@ body{
   font-optical-sizing: auto;
 }
 header.primary{
-  background-image: url("/spacex/assets/img/dragon-in-space.jpg"); 
+  background-image: url("./assets/img/dragon-in-space.jpg");
   display: flex;
   justify-content: center;
   flex-direction: column;
